@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sample</groupId>
-  <artifactId>flipkart</artifactId>
+  <artifactId>flipkarot</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>flipkart Maven Webapp</name>
@@ -17,7 +17,7 @@
   </dependencies>
   <build>
 		  <finalName>${project.artifactId}${project.version}</finalName>
-	  
+       </plugins>
           <plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
