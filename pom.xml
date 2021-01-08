@@ -25,8 +25,8 @@
 				<configuration>
 				<path>/${project.artifactId}${version}</path>
 				<url>http://65.0.134.249:8080/manager/</url>
-					<username>admin</username>
-					<password>adminadmin</password>
+				<username>${username}</username>
+				<password>${passwd}</password>
 					<update>true</update>
 				</configuration>
 			</plugin>
