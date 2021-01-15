@@ -24,7 +24,7 @@
 				<version>2.2</version>
 				<configuration>
 				<path>/${project.artifactId}${version}</path>
-				<url>http://13.233.134.145:8080/manager/</url>
+				<url>http://65.0.135.35:8080/manager/</url>
 				<username>${username}</username>
 				<password>${passwd}</password>
 					<update>true</update>
